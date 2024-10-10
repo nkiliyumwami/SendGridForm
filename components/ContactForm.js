@@ -11,12 +11,12 @@ const ContactForm = () => {
     message: '',
   });
 
-  const [status, setStatus] = useState('');
+  // const [status, setStatus] = useState('');
 
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData({ ...formData, [name]: value });
-  };
+  // const handleChange = (e) => {
+  //   const { name, value } = e.target;
+  //   setFormData({ ...formData, [name]: value });
+  // };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
